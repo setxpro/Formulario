@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-image: url(../images/space.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1350px; 
+    height:600px;
+    font-size: 40px;
+}
+.img a {
+    text-decoration: none;
+    font-size: 40px;
+    transition: all 1s linear;
+}
+.img a:hover {
+    color: red;
+}
+
+.h1_index {
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+}
+body {
+    background-color: black;
+}
+table,th,td {
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px;
+    color: #fff;
+}
+th {
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: rgba(230, 255, 7, 0.274);
+}
+tr{
+    background-color: rgba(70, 67, 67, 0.555);
+}
+td a {
+    text-decoration: none;
+    margin-left: 15px;
+    text-align: center;
+}
+
+/*
+    itens do formulário
+    Left Side
+*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../images/backimage2.0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Formulario {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #fff;
+}
+form {
+    margin-right: 350px;
+    width: 400px;
+}
+input {
+    width: 567px;
+    height: 45px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+label {
+
+    color: #fff;
+}
+.check  {
+    width: 15px;
+    height: 15px;
+}
+label a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #1100ff;
+}
+.button {
+    width: 137px;
+    height: 45px;
+    border: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    transition: all 1s linear;
+    cursor: pointer;
+}
+.button:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/*
+    itens do formulário
+    Left Right
+*/
+
+.title {
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 39px;
+}
+.title_social {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+}
+p {
+    font-size: 1.125rem;
+    font-weight: 200;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    margin-bottom: 100px;
+}
+/*
+    SOCIAL ICONS
+*/
+.lefft {
+    padding: 90px;
+}
+.rigth {
+    padding: 70px 0px;
+}
+.facebook {
+    padding: 0px 10px;
+    font-size: 33px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 1s linear;
+}
+.facebook:hover {
+    color: rgb(63, 85, 170);
+}
+.twitter {
+    padding: 0px 10px;
+    font-size: 33px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 1s linear;
+}
+.twitter:hover {
+   color: rgb(95, 183, 254);
+}
+.instagram {
+    padding: 0px 10px;
+    font-size: 33px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 1s linear;
+}
+.instagram:hover {
+    color: rgb(219, 62, 104);
+}
+.google {
+    padding: 0px 10px;
+    font-size: 33px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 1s linear;
+}
+.google:hover {
+    color: rgb(206, 32, 31);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    height: 135px;
+}
+.author {
+    font-family: Arial ,sans-serif;
+    color: #fff;
+}
